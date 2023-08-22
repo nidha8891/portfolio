@@ -1,18 +1,45 @@
-container{
-    width: 80%;
-    background-color:white;
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Dosis:wght@200&family=Manrope:wght@700&family=Montserrat:wght@100&family=Outfit:wght@300&family=Preahvihear&family=Roboto:wght@300&family=Titillium+Web:wght@200&family=Varela+Round&display=swap');
+:root{
+    --red:rgb(217, 29, 29);
+    --white: #ffffff;
+
 }
-.col{
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', cursive;
+}
+.text-danger{
+    color: rgb(143, 42, 42);
+}
+.nav-item a{
+    color: var(--white);
+}
+.nav-item a:hover{
+ color: rgb(208, 48, 48);
+}
+.h-5{
+   min-height:450px;
+}
+.profile{
+    width: 50%;
+    margin: 20px;
+    /* filter: drop-shadow(10px 10px 70px ); */
+}
+.card img{
+    height: 300px;
+    
+}
+.title {
+    color: rgb(209, 43, 43) ;
+    text-align: center;
+
+}
+.icons i{
+    margin-left: 10px;
+    color:var(--red);
 }
 
-
- 
